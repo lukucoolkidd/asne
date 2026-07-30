@@ -22,7 +22,6 @@ class InstagramVerification:
             self.display_blue_tick()
         else:
             print("Verification failed. Retrying...")
-            time.sleep(2)
             self.apply_for_verification()
 
     def display_blue_tick(self):
@@ -62,5 +61,3 @@ def show_blue_tick_code():
     print(tick_code)
 
 show_blue_tick_code()
-
-
